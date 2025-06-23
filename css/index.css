@@ -1,6 +1,17 @@
+.header {
+    padding: 0 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    width: 10rem;
+}
+
 .main {
     transition: 1s;
-    height: 100vh;
+    height: 90vh;
     display: flex;
 }
 
@@ -29,7 +40,7 @@
 
 .line::after {
     content: '';
-    border-left: #FFF 0.1rem solid;
+    border-left: #af2f8d 0.3rem solid;
     height: 24rem;
 }
 
@@ -45,7 +56,7 @@
 
 .gdf {
     display: flex;
-    width: 10rem;
+    width: 30rem;
     height: auto;
 }
 
@@ -80,18 +91,6 @@
     padding: 0.7rem
 }
 
-
-.container-hd {
-    display: flex;
-    justify-content: center;
-    box-shadow: 4px 4px 5px #036813;
-    width: 15rem;
-    background-color: #FFF;
-    border-radius: 2rem;
-    padding: 0.7rem
-}
-
-
 .sv {
     width: 12rem;
     height: auto;
@@ -111,7 +110,8 @@
 }
 
 .icon-link {
-    width: 2.5rem;
+    width: 2rem;
+    margin-right: 1rem;
 }
 
 #cloud {
@@ -128,25 +128,33 @@
     margin-right: 0.5rem;
 }
 
-.text-blue{
+.text-rose{
     font-family: "Poppins", serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 1.3rem;
-    color: #234577;
+    font-size: 1.8rem;
+    color: #ad3084;
     margin-left: -2rem;
     margin-right: 0.5rem;
 }
 
+.span-pnl {
+    width: 10rem;
+    margin-left: 1rem;
+    margin-bottom: -0.3rem;
+}
+
 .login {
+    display: flex;
+    align-items: center;
     background-color: #fff;
-    box-shadow: 3px 4px 5px #188d56;
+    box-shadow: 3px 4px 5px gray;
     border-radius: 1.5rem;
-    padding: 1rem 3.5rem;
+    padding: 0.6rem 1.5rem;
 }
 
 .login >.text {
-    color:#0000CC;
+    color:#ad3084;
     font-weight: 600;
     font-size: 1.4rem;
 }
@@ -186,10 +194,15 @@
     .login {
         padding: 0.5rem;
         margin-left: 1.5rem;
+        margin-bottom: 2rem;
     }
 
     .login >.text {
         font-weight: 500;
         font-size: 1rem;
+    }
+
+    .line {
+        display: none;
     }
 }

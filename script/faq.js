@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    fetch('../data/faq2.json')
+    fetch('../data/faq.json')
         .then(res => res.json())
         .then(faqs => {
             const containerFAQ = document.querySelector('.container-faq');
@@ -12,20 +12,17 @@ document.addEventListener('DOMContentLoaded', function () {
                 containerFAQ.innerHTML = '';
 
                 faqsToRender.forEach(item => {
-                    // Gerar conteúdo das respostas
                     let respostasContent = '';
                     
-                    // Adicionar cada resposta com o ícone de check
                     item.resposta.forEach(res => {
                         respostasContent += `
                         <div class="respostas-faq-wrapper">
-                            <img class="check-faq" src="./assets/icons/check.png" alt="">
-                            <p class="respostas-faq">${res}</p>
+                            <img class='check-faq' src='../assets/icons/check.png' alt=''/>
+                            <p class='respostas-faq'>${res}</p>
                         </div>
                         </br>`;
                     });
                     
-                    // Adicionar imagem se existir
                     if (item.imagem && item.imagem !== false) {
                         respostasContent += `
                         <div class="imagem-faq-wrapper">
