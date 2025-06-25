@@ -242,10 +242,11 @@
 @media (max-width: 900px) {
     .faq {
         grid-template-columns: 1fr;
+        min-width: 314px;
     }
 
-    .wrapper-titulo {
-        gap: 2rem;
+    .wrapper-main {
+        width: 100vw;
     }
 
     .sv {
