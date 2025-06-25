@@ -179,6 +179,19 @@
     .sct {
         margin-left: 2rem;
     }
+
+    #cloud {
+        width: 2rem;
+    }
+
+    .text-rose {
+        font-size: 1rem;
+    }
+
+    .span-pnl {
+        width: 5rem;
+        margin-bottom: 0rem;
+    }
 }
 
 @media screen and (max-width: 700px){
@@ -235,5 +248,20 @@
 
     .line {
         display: none;
+    }
+
+    #cloud {
+        width: 1.5rem;
+    }
+
+    .text-rose {
+        font-size: 0.8rem;
+        margin-left: -2.5rem;
+    }
+
+    .span-pnl {
+        width: 4rem;
+        margin-bottom: 0rem;
+        margin-left: 0.3rem;
     }
 }
