@@ -60,7 +60,7 @@
 
 .pnl {
     display: flex;
-    width: 30rem;
+    width: 20rem;
     height: auto;
     transition: 1s;
 }
@@ -71,19 +71,15 @@
     border-radius: 3rem;
 }
 
-.ssedf {
+.logo-central {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.ssedf > h2 {
-    font-weight: 600;
-    color: #FFF;
-    text-transform: uppercase;
-    text-align: center;
-    
+    padding: 2rem;
+    border-radius: 2rem; 
+    overflow: hidden;
+    background-color: #FFF;
 }
 
 .container-sv {
