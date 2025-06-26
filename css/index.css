@@ -162,6 +162,12 @@
     font-size: 1.4rem;
 }
 
+.bot {
+    position: fixed;
+    bottom: 3rem;
+    right: 3rem;
+}
+
 @media screen and (max-width: 1000px) {
     .header {
         margin-bottom: 3rem;
