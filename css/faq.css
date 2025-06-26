@@ -1,7 +1,7 @@
 .faq {
     display: grid;
     grid-template-columns: 5fr 5fr;
-    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5)), rgba(147, 140, 194, 0.7);
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.4)), rgba(82, 82, 82, 0.7);
     min-height: 100vh;
     min-width: 600px;
 }
@@ -118,7 +118,7 @@
 }
 
 .icon-faq {
-    width: 6rem;
+    width: 10rem;
     height: auto;
     transition: 1s;
 }
@@ -223,7 +223,7 @@
     }
 
     .logo-g-b {
-        width: 20rem;
+        width: 10rem;
         cursor: pointer;
         transition: 1s;
     }

@@ -1,9 +1,11 @@
 .header {
-    padding: 0 3rem;
+    padding: 2rem 3rem 0 3rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-sizing: border-box;
     transition: 1s;
+
 }
 
 .header-logo {
@@ -42,7 +44,7 @@
 
 .line::after {
     content: '';
-    border-left: #af2f8d 0.3rem solid;
+    border-left: #FFF 0.3rem solid;
     height: 24rem;
 }
 
@@ -101,6 +103,9 @@
 
 .container-link {
     text-decoration: none;
+    background-color: rgba(82, 82, 82, 0.7);
+    width: 30rem;
+    padding: 1rem 2rem;
     display: flex;
     align-items: center;
     gap: 2.5rem;
@@ -136,7 +141,7 @@
     font-weight: 700;
     font-style: normal;
     font-size: 1.8rem;
-    color: #ad3084;
+    color: #504f4f;
     margin-left: -2rem;
     margin-right: 0.5rem;
 }
@@ -150,6 +155,7 @@
 .login {
     display: flex;
     align-items: center;
+    width: 31rem;
     background-color: #fff;
     box-shadow: 3px 4px 5px gray;
     border-radius: 1.5rem;
