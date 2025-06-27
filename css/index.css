@@ -170,7 +170,7 @@
     right: 3rem;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
     .header {
         margin-bottom: 3rem;
     }
@@ -180,8 +180,12 @@
         font-size: 1rem;
     }
 
+    .logo-central {
+        padding: 0;
+    }
+
     .pnl {
-        width: 20rem;
+        width: 15rem;
     }
 
     .sct {
@@ -245,7 +249,7 @@
 
     .login {
         padding: 0.5rem;
-        margin-left: 1.5rem;
+        width: calc(0.7 * 100vw);
         margin-bottom: 2rem;
     }
 
@@ -271,5 +275,10 @@
         width: 4rem;
         margin-bottom: 0rem;
         margin-left: 0.3rem;
+    }
+
+    .container-link {
+        padding: 0.5rem;
+        width: calc(0.7 * 100vw);
     }
 }
