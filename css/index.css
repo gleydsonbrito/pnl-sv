@@ -5,7 +5,7 @@
     align-items: center;
     box-sizing: border-box;
     transition: 1s;
-
+    height: 15vh;
 }
 
 .header-logo {
@@ -15,8 +15,8 @@
 
 .main {
     transition: 1s;
-    height: 90vh;
     display: flex;
+    height: 85vh;
 }
 
 .logos {
